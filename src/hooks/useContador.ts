@@ -16,7 +16,7 @@ const useContador = () => {
         return;
        } 
 
-       setContador((prev) => ({ valor: prev.valor =1}));
+       setContador((prev) => ({ valor: prev.valor + 1}));
        toast.success('Contador incrementado');
     };
 
